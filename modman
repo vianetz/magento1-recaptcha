@@ -1,0 +1,4 @@
+src/app/code/community/Vianetz/Recaptcha                                app/code/community/Vianetz/Recaptcha
+src/app/etc/modules/Vianetz_Recaptcha.xml                               app/etc/modules/Vianetz_Recaptcha.xml
+src/app/design/frontend/base/default/layout/vianetz_recaptcha.xml       app/design/frontend/base/default/layout/vianetz_recaptcha.xml
+src/app/design/frontend/base/default/template/vianetz_recaptcha.phtml   app/design/frontend/base/default/template/vianetz_recaptcha.phtml

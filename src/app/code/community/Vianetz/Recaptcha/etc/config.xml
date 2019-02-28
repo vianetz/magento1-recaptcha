@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Vianetz_Recaptcha>
+            <version>1.0.0</version>
+        </Vianetz_Recaptcha>
+    </modules>
+
+    <global>
+        <helpers>
+            <vianetz_recaptcha>
+                <class>Vianetz_Recaptcha_Helper</class>
+            </vianetz_recaptcha>
+        </helpers>
+        <models>
+            <vianetz_recaptcha>
+                <class>Vianetz_Recaptcha_Model</class>
+            </vianetz_recaptcha>
+        </models>
+        <blocks>
+            <vianetz_recaptcha>
+                <class>Vianetz_Recaptcha_Block</class>
+            </vianetz_recaptcha>
+        </blocks>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <vianetz_recaptcha>
+                    <file>vianetz_recaptcha.xml</file>
+                </vianetz_recaptcha>
+            </updates>
+        </layout>
+        <routers>
+            <contacts>
+                <args>
+                    <modules>
+                        <Vianetz_Recaptcha before="Mage_Contacts">Vianetz_Recaptcha_Contacts</Vianetz_Recaptcha>
+                    </modules>
+                </args>
+            </contacts>
+        </routers>
+    </frontend>
+</config>
