@@ -1,0 +1,4 @@
+<?php /** @var \Vianetz_Recaptcha_Block_Recaptcha $this */ ?>
+<?php if ($this->isEnabled()): ?>
+    <div class="g-recaptcha" data-sitekey="<?php echo $this->getSitekey(); ?>"></div>
+<?php endif; ?>
